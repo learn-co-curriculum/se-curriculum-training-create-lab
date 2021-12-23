@@ -257,6 +257,9 @@ Our first lab is ready to go! We've got the repo set up with a `main` and
 task!
 
 [learn-test]: https://github.com/learn-co/learn-test
+[course homepage]: https://learning.flatironschool.com/courses/5465
+[module requirement]:
+  https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-add-requirements-to-a-module/ta-p/1131
 [curriculum templates]:
   https://github.com/learn-co-curriculum/se-curriculum-templates
 [javascript-lab template]:
