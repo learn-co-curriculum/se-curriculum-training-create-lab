@@ -176,7 +176,7 @@ default settings for the assignment that impact grading and assignment
 submission. These settings can be viewed by going to the assignment page in
 Canvas, clicking the "Edit" button, and scrolling down.
 
-![Canvas assignment settings](https://curriculum-content.s3.amazonaws.com/curriculum-training/create-lab/canvas-assignment-settings-new.png)
+![Canvas assignment settings](https://curriculum-content.s3.amazonaws.com/curriculum-training/create-lab/canvas-assignment-settings.png)
 
 While we could leave all the defaults as shown above, we might want to be a
 little more explicit with the assignment group.
