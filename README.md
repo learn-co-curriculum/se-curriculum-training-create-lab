@@ -67,7 +67,12 @@ For our example lab, let's use the [javascript-lab template][]:
 - [https://github.com/learn-co-curriculum/se-curriculum-templates/tree/main/javascript-lab][javascript-lab template]
 
 Copy all the files and folders from this template into your
-`se-curriculum-training-your-name-lab` directory.
+`se-curriculum-training-your-name-lab` directory. Change the top-level heading
+of the `README.md` file to:
+
+```md
+# Your Name First Lab
+```
 
 Commit your changes:
 
@@ -115,8 +120,8 @@ Sweet!
 
 Let's discuss what's changed from the readme version of this command:
 
-- `--type assignment`: specifies that the type of lesson is a assignment rather
-  than an page, since students are expected to submit their code for this
+- `--type assignment`: specifies that the type of lesson is an assignment rather
+  than a page, since students are expected to submit their code for this
   lesson. If the type isn't specified, the gem will infer it based on the folder
   structure. It's safest to specify a type directly, though.
 - `--forkable`: this creates a blue "FORK" button in the upper-right corner of
@@ -154,6 +159,8 @@ complete. To add a module requirement:
   assignment" as the requirement
 - Click "Update Module"
 
+![Adding Lab to Module](https://curriculum-content.s3.amazonaws.com/curriculum-training/create-lab/canvas-add-lab-to-module.png)
+
 Now when a student submits the lesson using the `learn-test` gem, it will be
 marked as complete.
 
@@ -166,15 +173,13 @@ Nice work!
 
 When the github-to-canvas gem creates a new lesson in Canvas, it sets a few
 default settings for the assignment that impact grading and assignment
-submission. These settings can be viewed by going to the assignment page and
-clicking the "Edit" button.
+submission. These settings can be viewed by going to the assignment page in
+Canvas, clicking the "Edit" button, and scrolling down.
 
-![Canvas assignment settings](https://curriculum-content.s3.amazonaws.com/curriculum-training/create-lab/canvas-assignment-settings.png)
+![Canvas assignment settings](https://curriculum-content.s3.amazonaws.com/curriculum-training/create-lab/canvas-assignment-settings-new.png)
 
-- **Points**: 1
-- **Assignment Group**: (see below)
-- **Display Grade as**: Complete/Incomplete
-- **Submission Type**: Online / Website URL
+While we could leave all the defaults as shown above, we might want to be a
+little more explicit with the assignment group.
 
 Our courses have the following assignment groups:
 
@@ -187,7 +192,7 @@ Our courses have the following assignment groups:
   phase.
 - **Misc**: all assignments that don't fit in any of the above categories.
 
-You can change the assignment group to "Lab" to keep it organized.
+Let's change the assignment group to "Lab" to keep it organized.
 
 ## Creating a Solution Branch
 
@@ -206,10 +211,9 @@ describe("todo", () => {
 });
 ```
 
-This is just an example of what a test could look like (you'd obviously need to
-change the `"todo"`s to be descriptive and write more tests based on the
-learning objectives of the lab), but it gives us enough to work on and create a
-solution branch.
+This is just an example of what a test could look like — you'd obviously need to
+change the `"todo"`s to be descriptive, and write more tests based on the
+learning objectives of the lab — but it gives us enough to work with.
 
 Create a new `solution` branch off the `main` branch:
 
